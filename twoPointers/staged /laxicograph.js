@@ -1,7 +1,6 @@
 export function next_lexicographical_sequence(s) {
   const letters = s.split('')
-  // Locate the pivot, which is the first character from the right that breaks
-  // non-increasing order. Start searching from the second-to-last position.
+
   let pivot = letters.length - 2
   while (pivot >= 0 && letters[pivot] >= letters[pivot + 1]) {
     pivot -= 1
