@@ -1,0 +1,12 @@
+# Ignore newly created files by default.
+*
+
+# Keep directories visible so Git can reach allowed source files.
+!**/
+
+# Keep this configuration file and C++ sources inside any `cpp` directory.
+!.gitignore
+!**/cpp/**/*.cpp
+
+# macOS debug symbols produced by C++ builds.
+*.dSYM/
