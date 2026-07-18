@@ -4,9 +4,9 @@
 # Keep directories visible so Git can reach allowed source files.
 !**/
 
-# Keep this configuration file and C++ sources inside any `cpp` directory.
+# Keep this configuration file and C++ sources.
 !.gitignore
-!**/cpp/**/*.cpp
+!**/*.cpp
 
 # macOS debug symbols produced by C++ builds.
 *.dSYM/
